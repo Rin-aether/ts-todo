@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import localforage from "localforage";
+import { Todo } from "./@types/Todo";
+import { Filter } from "./@types/Filter";
 import { isTodos } from "./lib/isTodo";
 
 export const App = () => {

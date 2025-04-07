@@ -1,1 +1,1 @@
-declare type Filter = "all" | "checked" | "unchecked" | "removed";
+export type Filter = "all" | "checked" | "unchecked" | "removed";
